@@ -42,14 +42,13 @@ class Main {
         + " years" + "at an interest rate of" + interest + "?");
 
     System.out.println("Is that correct?");
-    String yesOrNo = inputObj.nextLine();
+    String yesOrNo = inputObj.next();
+
     if (yesOrNo == "yes") {
       System.out.println("Alright let me calculate that for you");
     }
     if (yesOrNo == "no") {
       System.out.println("Okay try again later");
-      System.exit(0);
-    } else {
       System.exit(0);
     }
 
